@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  background-color: rgb(221, 69, 13);
+}
+.info-box {
+  background-color: #969ca2;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: white; /* Text color */
+  display: flex;
+  align-items: center;
+  margin-right: 15px; /* Little space between email and phone sections */
+}
+.info-box i {
+  color: orange; /* Icon color */
+  margin-right: 10px; /* Gap between icon and text */
+}
+.hero-section {
+  background: url("./images/Im\ hero\ img.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 100vh; /* Adjust as per your needs */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+/* Dark transparent box for text */
+.hero-text-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark box with transparency */
+  color: white;
+  /* padding: 10px; */
+  border-radius: 10px;
+  margin-left: 50px;
+  max-width: 700px; /* Restrict the width of the text box */
+  text-align: center; /* Center-align the text */
+}
+.hero-text-box1 {
+  background-color: rgba(240, 233, 233, 0.7); /* Dark box with transparency */
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 50px;
+  max-width: 700px; /* Restrict the width of the text box */
+  text-align: center; /* Center-align the text */
+}
+.hero-btn {
+  width: 200px;
+  margin-left: 50px;
+}
+/* Card */
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.c-details span {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+}
+
+.badge span {
+  background-color: #fffbec;
+  width: 60px;
+  height: 25px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  display: flex;
+  color: #fed85d;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 10px;
+}
+
+.progress div {
+  background-color: red;
+}
+
+.text1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text2 {
+  color: #a5aec0;
+}
+.cd {
+  width: 100%;
+  height: 300px;
+}
+.help-section {
+  background: url("./images/Im\ hero\ img.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 100vh; /* Adjust as per your needs */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.help-text-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark box with transparency */
+  color: white;
+  /* padding: 10px; */
+  border-radius: 10px;
+  margin-left: 50px;
+  max-width: 700px; /* Restrict the width of the text box */
+  text-align: left; /* Center-align the text */
+}
+
+@media (max-width: 321px) {
+  .hero-text-box {
+    margin-left: 0px;
+  }
+  .hero-text-box1 {
+    margin-left: 0px;
+  }
+  .hero-btn {
+    margin-left: 0px;
+  }
+  .ad-img {
+    width: 250px;
+  }
+}
+@media (max-width: 376px) {
+  .hero-text-box {
+    margin-left: 0px;
+  }
+  .hero-text-box1 {
+    margin-left: 0px;
+  }
+  .hero-btn {
+    margin-left: 0px;
+  }
+  .ad-img {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 426px) {
+  .hero-text-box {
+    margin-right: 10px;
+  }
+  .hero-text-box1 {
+    margin-right: 10px;
+  }
+  .hero-btn {
+    margin-right: 10px;
+  }
+  .ad-img {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 769px) {
+  .hero-text-box {
+    margin-left: 20px;
+  }
+  .hero-text-box1 {
+    margin-left: 20px;
+  }
+  .hero-btn {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1025px) {
+
+}
